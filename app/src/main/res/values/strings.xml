@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CourseWork_1786</string>
+    <string-array name="course_types">
+        <item>Flow Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+    </string-array>
+    <string name="lesson_image">Lesson Image</string>
+    <string-array name="sort_time_options">
+        <item>All Time</item>
+        <item>Most Recent</item>
+        <item>Oldest</item>
+    </string-array>
+
+    <string-array name="sort_category_options">
+        <item>All Type</item>
+        <item>Flow Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+    </string-array>
+
+    <string-array name="sort_price_options">
+        <item>All Price</item>
+        <item>Most Expensive</item>
+        <item>Cheapest</item>
+    </string-array>
+
+</resources>

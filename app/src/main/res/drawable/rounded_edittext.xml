@@ -1,0 +1,16 @@
+<!-- res/drawable/rounded_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Đặt màu nền -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Đặt góc bo tròn -->
+    <corners android:radius="16dp" />
+
+    <!-- Đặt đường viền (stroke) -->
+    <stroke
+        android:width="2dp"
+        android:color="#DDDDDD" />
+
+</shape>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA"
+    tools:context=".AddCourseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Course"
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        <!-- Title Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_course_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:hint="Enter course title"
+            android:textColor="#424242"
+            android:textColorHint="#BDBDBD"
+            android:layout_marginTop="4dp" />
+
+        <!-- Description Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edit_course_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:hint="Enter course description"
+            android:textColor="#424242"
+            android:textColorHint="#BDBDBD"
+            android:layout_marginTop="4dp" />
+
+        <!-- Price Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edit_course_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:hint="Enter course price"
+            android:textColor="#424242"
+            android:textColorHint="#BDBDBD"
+            android:layout_marginTop="4dp" />
+
+        <!-- Duration Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration (hours)"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edit_course_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:hint="Enter duration in hours"
+            android:textColor="#424242"
+            android:textColorHint="#BDBDBD"
+            android:layout_marginTop="4dp" />
+
+        <!-- Type Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinner_course_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Thumbnail URL Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thumbnail URL"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edit_course_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:hint="Choose image from device!"
+            android:textColor="#424242"
+            android:textColorHint="#BDBDBD"
+            android:layout_marginTop="4dp" />
+
+        <!-- Add Course Button -->
+        <Button
+            android:id="@+id/button_add_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Add Course"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
